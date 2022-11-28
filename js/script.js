@@ -1,8 +1,8 @@
 // JS VAL
 const tabAC = {
-  "ACII": "projets/projet1.html",
-  "OW": "projets/projet2.html",
-  "ACIV": "projets/projet3.html"
+  "ACII": "projets/projet1.php",
+  "OW": "projets/projet2.php",
+  "ACIV": "projets/projet3.php"
 }
 window.onload = (event) => {
   $('.carousel.carousel-slider').carousel({
@@ -82,13 +82,13 @@ $("#empty").on('click',function(){
   $("#form").hide();
   $('#form').removeClass('ac2toggle');
 });
-var countClick = 0;
-$(document).click( function() {
-  countClick++;
-  if (countClick>=15) {
-    window.location = "https://snowball.gg";
-  }
-});
+// var countClick = 0;
+// $(document).click( function() {
+//   countClick++;
+//   if (countClick>=15) {
+//     window.location = "https://snowball.gg";
+//   }
+// });
 
 $("#send-button").on('click',function(){
   $('#video').addClass('play');
