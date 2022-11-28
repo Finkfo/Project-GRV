@@ -27,16 +27,16 @@
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.php">Home</a></li>
                 <li>
                     <!-- Dropdown Trigger -->
                     <a class="dropdown-trigger" href="#!" data-target="dropdown">Projets<i
                             class="material-icons right">arrow_drop_down</i></a>
                     <!-- Dropdown Structure -->
                     <ul id="dropdown" class="dropdown-content">
-                        <li><a href="projet1.html">Assassin's Creed II</a></li>
+                        <li><a href="projet1.php">Assassin's Creed II</a></li>
                         <li class="divider" tabindex="-1"></li>
-                        <li class="ac-tag"><a href="projet2.html">Overwatch 2</a></li>
+                        <li><a href="projet2.php">Overwatch 2</a></li>
                     </ul>
                 </li>
                 <li>
