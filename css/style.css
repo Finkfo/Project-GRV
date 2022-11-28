@@ -1,0 +1,165 @@
+
+/* NAV */
+.logo-navbar{
+    margin: 5px 10px;
+    width: 70%;
+} 
+
+.nav-icon{
+    margin: 0px 15px 0px 5px;
+}
+
+.gui,.val,.rob{
+    padding: 0px 15px;
+}
+body{
+  background-color: #eeeeee;
+}
+
+.container{
+background-color: #eeeeee;
+}
+
+/* MODAL */
+.modal{
+  overflow: hidden;
+}
+.modal .modal-content .row{
+  margin-bottom: 0px;
+  text-align: center;
+}
+.modal .modal-content{
+  padding: 0px;
+}
+.modal .modal-content .row #contact-AC-Reb{
+  background-image: none;
+}
+.modal .modal-content .row #form.gtatoggle{
+  background-image: url("../img/modal/acreb_font.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+}
+.modal .modal-content .row #contact-AC-Reb:hover{
+  background-image: url("../img/modal/acreb_font.webp");
+  background-size: cover;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+}
+.modal .modal-content .row #acreb-logo{
+  width: 50%;
+}
+.modal .modal-content .row #contact-AC-2{
+  background-image: none;
+}
+.modal .modal-content .row #form.ac2toggle{
+  background-image: url("../img/modal/ac2-font.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+
+}
+.modal .modal-content .row #contact-AC-2:hover{
+  background-image: url("../img/modal/ac2-font.jpg");
+  background-size: cover;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+}
+.modal .modal-content .row #ac2-logo{
+  width: 50%;
+}
+.modal .modal-content .row #contact-Overwatch-2:hover{
+  background-image: url("../img/modal/hexa2.webp");
+  background-size: cover;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+}
+.modal .modal-content .row #overwatch2-logo{
+  width: 50%;
+}
+.modal .modal-content .row #form.ow2toggle{
+  background-image: url("../img/modal/hexa2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+}
+.modal{
+  border-radius: 30px;
+}
+.modal .modal-content .row #form{
+  display: none;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea{
+  border-bottom: 1px solid #000000;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.input-field > label {
+    color: #000000;
+}
+.modal-footer #send-button{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+.modal-footer #send-button:hover{
+  background-color: #e0e0e0;
+}
+.selected-custom:hover{
+  background:none!important;
+}
+
+
+/* CSS CAROUSELLE */
+#ACII{
+    background-image: url('../img/ACII_logo.png');
+    background-position: center;
+    background-size:60% auto;
+    background-repeat: no-repeat;
+}
+#OW{
+    background-image: url('../img/overwatch-logo.png');
+    background-position: center;
+    background-size:60% auto;
+    background-repeat: no-repeat;
+}
+#ACIV{
+    background-image: url('../img/logo-ac.png');
+    background-position: center;
+    background-size:60% auto;
+    background-repeat: no-repeat;
+}
+#swipe-right{
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+#swipe-left{
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+/* CSS EASTEREGG */
+#video{
+  visibility: hidden;
+}
+#video.play{
+  display: block;
+  margin: auto;
+  text-align: center;
+  visibility: visible;
+}
