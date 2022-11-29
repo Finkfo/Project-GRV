@@ -44,7 +44,6 @@
                     <a class="waves-effect waves-light btn modal-trigger orange darken-3" href="#modal1">Contact</a>
                     <!-- TEST -->
                 </li>
-                <li><i class="material-icons nav-icon">wb_sunny</i></li>
             </ul>
         </div>
         <ul class="sidenav grey center" id="mobile-demo">
@@ -65,7 +64,6 @@
                 <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a>
                 <!-- TEST  -->
             </li>
-            <li><i class="material-icons nav-icon">wb_sunny</i></li>
         </ul>
     </nav>
     <!-- Fin navbar section -->
