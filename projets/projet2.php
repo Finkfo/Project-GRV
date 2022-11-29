@@ -19,7 +19,7 @@
 
 <body>
     <!-- Début navbar section -->
-    <nav class="navbar-page-overwatch">
+    <nav class="grey navbar-page-overwatch">
         <div class="nav-wrapper">
             <a href="https://gamingcampus.fr/" class="brand-logo"> <img class="logo-navbar"
                     src="../img/logo-gaming-campus-written.png"> </a>
@@ -161,12 +161,6 @@
                 </div>
                 <img class="col l6 s12" src="../img/pages/visuel-site-page-overwatch.png"
                     alt="capture d'écran du site internet">
-            </div>
-
-            <div class="row">
-                <div class="center col s12">
-                    <a class="waves-effect waves-light btn btn-page-overwatch" href="#">lien site projet</a>
-                </div>
             </div>
         </div>
         <!-- Fin main page -->
