@@ -37,51 +37,15 @@ $(document).ready(function () {
 
 // JS ROBIN  
 $(document).ready(function(){
+  $('select').formSelect();
+});
+$(document).ready(function(){
   $('.modal').modal();
   M.updateTextFields();
 });
 $('#textarea1').val('New Text');
   M.textareaAutoResize($('#textarea1'));
 
-$("#contact-AC-Reb").on('click',function(){
-  $("#form").show();
-  $('#form').removeClass('ow2toggle');
-  $('#form').removeClass('ac2toggle');
-  $('#form').addClass('gtatoggle');
-  $("#contact-Overwatch-2").removeClass('selected-custom');
-  $("#contact-AC-2").removeClass('selected-custom');
-  $(this).addClass('selected-custom');
-});
-$("#empty").on('click',function(){
-  $("#form").hide();
-  $('#form').removeClass('gtatoggle');
-});
-$("#contact-Overwatch-2").on('click',function(){
-  $("#form").show();
-  $('#form').removeClass('ac2toggle');
-  $('#form').removeClass('gtatoggle');
-  $('#form').addClass('ow2toggle');
-  $("#contact-AC-Reb").removeClass('selected-custom');
-  $("#contact-AC-2").removeClass('selected-custom');
-  $(this).addClass('selected-custom');
-});
-$("#empty").on('click',function(){
-  $("#form").hide();
-  $('#form').removeClass('gtatoggle');
-});
-$("#contact-AC-2").on('click',function(){
-  $("#form").show();
-  $('#form').removeClass('gtatoggle');
-  $('#form').removeClass('ow2toggle');
-  $('#form').addClass('ac2toggle');
-  $("#contact-Overwatch-2").removeClass('selected-custom');
-  $("#contact-AC-Reb").removeClass('selected-custom');
-  $(this).addClass('selected-custom');
-});
-$("#empty").on('click',function(){
-  $("#form").hide();
-  $('#form').removeClass('ac2toggle');
-});
 // var countClick = 0;
 // $(document).click( function() {
 //   countClick++;

@@ -31,60 +31,8 @@ background-color: #eeeeee;
 .modal .modal-content{
   padding: 0px;
 }
-.modal .modal-content .row #contact-AC-Reb{
-  background-image: none;
-}
-.modal .modal-content .row #form.gtatoggle{
-  background-image: url("../img/modal/acreb_font.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: auto;
-}
-.modal .modal-content .row #contact-AC-Reb:hover{
-  background-image: url("../img/modal/acreb_font.webp");
-  background-size: cover;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-}
-.modal .modal-content .row #acreb-logo{
-  width: 50%;
-}
-.modal .modal-content .row #contact-AC-2{
-  background-image: none;
-}
-.modal .modal-content .row #form.ac2toggle{
-  background-image: url("../img/modal/ac2-font.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: auto;
-
-}
-.modal .modal-content .row #contact-AC-2:hover{
-  background-image: url("../img/modal/ac2-font.jpg");
-  background-size: cover;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-}
-.modal .modal-content .row #ac2-logo{
-  width: 50%;
-}
-.modal .modal-content .row #contact-Overwatch-2:hover{
-  background-image: url("../img/modal/hexa2.webp");
-  background-size: cover;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-}
-.modal .modal-content .row #overwatch2-logo{
-  width: 50%;
-}
-.modal .modal-content .row #form.ow2toggle{
-  background-image: url("../img/modal/hexa2.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: auto;
-}
 .modal{
-  border-radius: 30px;
+  border-radius: 10px;
 }
 .modal .modal-content .row #form{
   display: none;
@@ -162,4 +110,14 @@ textarea.materialize-textarea{
   margin: auto;
   text-align: center;
   visibility: visible;
+}
+/* FOOTER */
+.footer .container{
+  background-color: #000000;
+}
+#foot{
+  margin-bottom: 0px;
+}
+#contact{
+  margin-top: 43px;
 }

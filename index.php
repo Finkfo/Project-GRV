@@ -41,11 +41,6 @@
                         <li><a href="projets/projet3.php">Assassin's Creed IV</a></li>
                     </ul>
                 </li>
-                <li>
-                    <!-- modal trigger -->
-                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a>
-                    <!-- TEST -->
-                </li>
             </ul>
         </div>
         <ul class="sidenav grey center" id="mobile-demo">
@@ -62,69 +57,9 @@
                     <li><a href="projets/projet3.php">Assassin's Creed IV</a></li>
                 </ul>
             </li>
-            <li>
-                <!-- modal trigger -->
-                <a class="waves-effect waves-light btn modal-trigger orange darken-3" href="#modal1">Contact</a>
-                <!-- TEST  -->
-            </li>
         </ul>
     </nav>
   <!-- Fin navbar section -->
-
-  <!-- Début modal section -->
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <div class="row">
-        <div id="contact-AC-2" class="col s4">
-          <img id="ac2-logo" class="logo-modal" src="img/modal/ac_logo.png" alt="logo d'Assassin's Creed II">
-        </div>
-        <div id="contact-Overwatch-2" class="col s4">
-          <img id="overwatch2-logo" class="logo-modal" src="img/modal/Overwatch_2_logo.png" alt="logo d'overwatch 2">
-        </div>
-        <div id="contact-AC-Reb" class="col s4" class="modal">
-          <img id="acreb-logo" class="logo-modal" src="img/modal/acreb_logo.png"
-            alt="logo d'Assassin's Creed Rebel Collection">
-        </div>
-        <div id="form">
-          <div class="row" id="empty">
-            <div class="col s1">&nbsp</div>
-          </div>
-          <div class="row">
-            <form id="formular" class="col s12">
-              <div class="row">
-                <div class="input-field col s6">
-                  <input id="first_name" type="text" class="validate">
-                  <label for="first_name">Prénom</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="last_name" type="text" class="validate">
-                  <label for="last_name">Nom de famille</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="password" type="password" class="validate">
-                  <label for="password">Mot de passe</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
-                  <label for="email">Email</label>
-                </div>
-              </div>
-              <div class="modal-footer" style="background:none;">
-                <a id="send-button" href="#!" class="modal-close waves-effect waves-green btn-flat">Envoyer</a>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fin modal section -->
-
   <div class="parallax-container">
     <div class="parallax ">
       <img src="img/cover.webp" alt="">
@@ -184,7 +119,7 @@
               Robin Frouin<i class="material-icons right">arrow_drop_up</i>
             </span>
             <hp> <br><br> Comédien à ses heures perdues et victime du syndrome de Stockholm envers Ubisoft. Passionné
-              par la création artistique dans le domaine de l'informatique.</p>
+              par la création artistique dans le domaine de l'informatique. BIGARD 2 LE CON </p>
           </div>
         </div>
       </div>
@@ -211,7 +146,53 @@
     </div>
     <div class="col l2 hide-on-small-only"></div>
   </div>
-  </div>
+  <footer class="page-footer">
+    <div class="row" id="foot">
+      <div class="col s2"></div>
+      <div class= "col s4">
+      <a href="https://gamingcampus.fr/" class="brand-logo"> <img class="logo-navbar" src="img/logo-gaming-campus-written.png"></a>
+      </div>
+      <div class="col s4 center floating" id="contact">
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+          <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                  <select>
+                    <option value="" disabled selected>Projet à contacter</option>
+                    <option value="1">Assassin's Creed II</option>
+                    <option value="2">Overwatch 2</option>
+                    <option value="3">Assassin's Creed IV</option>
+                  </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <button> envoyer </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s2"></div>
+    </div>
+  </footer>
   <video hidden controls id='video'>
     <source src="img/windy_music.mp4" type="video/mp4">
   </video>
