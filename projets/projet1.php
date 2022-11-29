@@ -60,7 +60,7 @@
             </li>
             <li>
                 <!-- modal trigger -->
-                <a class="waves-effect waves-light btn modal-trigger orange darken-3" href="#modal1">Contact</a>
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact</a>
                 <!-- TEST  -->
             </li>
         </ul>
