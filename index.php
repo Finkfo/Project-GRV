@@ -18,48 +18,7 @@
 </head>
 
 <body>
-
-  <!-- Début navbar section -->
-  <nav>
-        <div class="nav-wrapper grey">
-            <a href="https://gamingcampus.fr/" class="brand-logo"> <img class="logo-navbar"
-                    src="img/logo-gaming-campus-written.png"> </a>
-            <a href="https://gamingcampus.fr/" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <!-- Dropdown Trigger -->
-                    <a class="dropdown-trigger" href="#!" data-target="dropdown">Projets<i
-                            class="material-icons right">arrow_drop_down</i></a>
-                    <!-- Dropdown Structure -->
-                    <ul id="dropdown" class="dropdown-content">
-                        <li><a href="projets/projet1.php">Assassin's creed II</a></li>
-                        <li class="divider" tabindex="-1"></li>
-                        <li><a href="projets/projet2.php">Overwatch 2</a></li>
-                        <li class="divider" tabindex="-1"></li>
-                        <li><a href="projets/projet3.php">Assassin's Creed IV</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <ul class="sidenav grey center" id="mobile-demo">
-            <li>
-                <!-- Dropdown Trigger -->
-                <a class="dropdown-trigger" href="#!" data-target="dropdown2">Projets<i
-                        class="material-icons right">arrow_drop_down</i></a>
-                <!-- Dropdown Structure -->
-                <ul id="dropdown2" class="dropdown-content">
-                    <li><a href="projets/projet1.php">Assassin's creed II</a></li>
-                    <li class="divider" tabindex="-1"></li>
-                    <li><a href="projets/projet2.php">Overwatch 2</a></li>
-                    <li class="divider" tabindex="-1"></li>
-                    <li><a href="projets/projet3.php">Assassin's Creed IV</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-  <!-- Fin navbar section -->
+  <?php require "components/navbar.php"; ?>
   <div class="parallax-container">
     <div class="parallax ">
       <img src="img/cover.webp" alt="">

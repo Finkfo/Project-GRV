@@ -20,6 +20,11 @@ body{
 background-color: #eeeeee;
 }
 
+.signin{
+  padding-right: 15px;
+  color: aqua;
+}
+
 /* MODAL */
 .modal{
   overflow: hidden;
