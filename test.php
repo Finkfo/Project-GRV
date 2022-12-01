@@ -10,6 +10,9 @@
     <?php 
     require "components/navbar.php";
     ?>
+        <?php 
+    require "components/card.php";
+    ?>
     
     <form action="components/newsignup.php" method="post">
         <h2>Inscription</h2>

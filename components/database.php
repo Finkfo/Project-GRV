@@ -5,7 +5,7 @@ $_SESSION;
 $pdo = new PDO(
     'mysql:host=localhost;dbname=grpc_grv;charset=utf8',
     'root',
-    'root'
+    'root1'
 );
 $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 ?>
