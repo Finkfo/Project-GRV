@@ -2,10 +2,10 @@
 // Souvent on identifie cet objet par la variable $conn ou $db
 session_start();
 $_SESSION;
-$pdo = new PDO(
+$bdd = new PDO(
     'mysql:host=localhost;dbname=grpc_grv;charset=utf8',
     'root',
     'root'
 );
-$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
+$bdd->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
 ?>
