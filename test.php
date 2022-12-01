@@ -7,7 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require "components/navbar.php"; ?>
+    <?php 
+    require "components/navbar.php";
+    ?>
     
+    <form action="components/signup.php" method="post">
+        <h2>Inscription</h2>
+        <input type="text" name="pseudo" placeholder="pseudo" required="required" autocomplete="off">
+        <input type="email" name="email" placeholder="email" required="required" autocomplete="off">
+        <input type="password" name="password" placeholder="mot de passe" required="required" autocomplete="off">
+        <button type="submit">S'inscrire</button>
+    </form>
+
+    <form action="" method="post">
+        <h2>Se connecter</h2>
+        <input type="email" name="email" placeholder="email" required="required" autocomplete="off">
+        <input type="password" name="password" placeholder="mot de passe" required="required" autocomplete="off">
+        <button type="submit">Se connecter</button>
+    </form>
+
+    <form method="post" action="signup.php">
+        <input type='email' name='email'>
+        <input type='password' name='password'>
+        <input type='text' name='first_name'>
+        <button type="submit">cre</button>
+    </form>
+
 </body>
 </html>
