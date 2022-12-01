@@ -11,7 +11,7 @@
     require "components/navbar.php";
     ?>
     
-    <form action="components/signup.php" method="post">
+    <form action="components/newsignup.php" method="post">
         <h2>Inscription</h2>
         <input type="text" name="pseudo" placeholder="pseudo" required="required" autocomplete="off">
         <input type="email" name="email" placeholder="email" required="required" autocomplete="off">
@@ -26,7 +26,7 @@
         <button type="submit">Se connecter</button>
     </form>
 
-    <form method="post" action="signup.php">
+    <form method="post" action="components/signup.php">
         <input type='email' name='email'>
         <input type='password' name='password'>
         <input type='text' name='first_name'>
