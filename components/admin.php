@@ -16,7 +16,10 @@
     <h2>Users</h2>
     <?php
     require_once "users.php"
+    ?>
+    <h2>Projects</h2>
+    <?php
     require_once "projectinf.php"
     ?>
-  </body>
+    </body>
 </html>
