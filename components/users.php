@@ -11,26 +11,15 @@
 <div class="row">
     <div class="col s3">
         <?php
-        echo $user['username'].' ';
-        ?>
-    </div>
-    <div class="col s3">
-        <?php
-        echo $user['mail'].' ';
-        ?>
-    </div>
-    <div class=" col s3">
-        <?php
-        echo $user['creation_date'];
-        ?>
-    </div>
-    <div class="col s3">
-    <?php
+        echo $user['username'].' '.echo $user['mail'].' '.echo $user['creation_date'];
         if(($user['admin']) == 1){
             echo 'Admin';
         }else{
             echo 'Not admin';
         }
+        $suppression = $donnees['id'];
+        $donnees['id'] = mysql_query('DELETE * FROM User WHERE id=' . $suppressionMessage);
+        "<a href='livre_or_a.php?idMsg=' . $donnees['id']>""</a>"
         ?>
     </div>
 </div>
